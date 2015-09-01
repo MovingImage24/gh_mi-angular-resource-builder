@@ -31,7 +31,7 @@ module.exports = function (karma) {
 
     logLevel: karma.LOG_DEBUG,
 
-    singleRun: false,
+    singleRun: true,
 
     webpack: {
       module: {
