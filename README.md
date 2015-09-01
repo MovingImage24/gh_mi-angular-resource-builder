@@ -3,10 +3,8 @@
 [![GitHub version](https://badge.fury.io/gh/MovingImage24%2Fmi-angular-resource-builder.svg)](http://badge.fury.io/gh/MovingImage24%2Fmi-angular-resource-builder)
 [![npm version](https://img.shields.io/npm/v/mi-angular-resource-builder.svg)](https://www.npmjs.com/package/mi-angular-resource-builder)
 [![npm downloads](https://img.shields.io/npm/dm/mi-angular-resource-builder.svg)](https://www.npmjs.com/package/mi-angular-resource-builder)
-<!---
 [![Build Status](https://img.shields.io/travis/MovingImage24/mi-angular-resource-builder.svg)](https://travis-ci.org/MovingImage24/mi-angular-resource-builder)
 [![Coverage Status](https://coveralls.io/repos/MovingImage24/mi-angular-resource-builder/badge.svg?branch=master&service=github)](https://coveralls.io/github/MovingImage24/mi-angular-resource-builder?branch=master)
--->
 [![dependency Status](https://david-dm.org/MovingImage24/mi-angular-resource-builder/status.svg)](https://david-dm.org/MovingImage24/mi-angular-resource-builder#info=dependencies)
 [![devDependency Status](https://david-dm.org/MovingImage24/mi-angular-resource-builder/dev-status.svg)](https://david-dm.org/MovingImage24/mi-angular-resource-builder#info=devDependencies)
 [![License](https://img.shields.io/github/license/MovingImage24/mi-angular-resource-builder.svg)](https://github.com/MovingImage24/mi-angular-resource-builder/blob/master/LICENSE)
