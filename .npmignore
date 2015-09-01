@@ -1,0 +1,8 @@
+coverage
+src
+test
+.idea
+.travis.yml
+.jscsrc
+karma.config.js
+webpack.min.config.js
