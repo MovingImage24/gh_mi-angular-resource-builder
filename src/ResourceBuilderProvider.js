@@ -13,9 +13,20 @@ function ResourceBuilderProvider($provide) {
   };
 
   function addResource(name, resourceConfig) {
-    $provide.factory(name, function($resource) {
+    $provide.factory(name, function($resource, $injector) {
+
+      angular.forEach(resourceConfig.actions, function(action) {
+        checkCacheConfig(action, $injector);
+      });
+
       return $resource(resourceConfig.url, resourceConfig.params, resourceConfig.actions, resourceConfig.options);
     });
+  }
+
+  function checkCacheConfig(actionConfig, $injector) {
+    if (actionConfig.cache && actionConfig.cache.type === 'inject') {
+      actionConfig.cache = $injector.get(actionConfig.cache.service);
+    }
   }
 
   function addResources(resourceConfigs) {
