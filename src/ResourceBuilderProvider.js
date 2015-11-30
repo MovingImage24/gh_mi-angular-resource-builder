@@ -13,14 +13,13 @@ function ResourceBuilderProvider($provide) {
   };
 
   function addResource(name, resourceConfig) {
-    $provide.factory(name, function($resource, $injector) {
-
+    $provide.factory(name, ['$resource', '$injector', function($resource, $injector) {
       angular.forEach(resourceConfig.actions, function(action) {
         checkCacheConfig(action, $injector);
       });
 
       return $resource(resourceConfig.url, resourceConfig.params, resourceConfig.actions, resourceConfig.options);
-    });
+    }]);
   }
 
   function checkCacheConfig(actionConfig, $injector) {
