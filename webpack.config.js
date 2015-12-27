@@ -9,11 +9,11 @@ module.exports = {
   entry: srcPath,
   output: {
     path: dstPath,
-    filename: 'mi-angular-resource-builder.min.js'
+    filename: 'mi-angular-resource-builder.js'
   },
+  devtool: 'inline-source-map',
   plugins: [
     new ngAnnotatePlugin({add: true}),
-    new webpack.optimize.UglifyJsPlugin(),
     new webpack.optimize.OccurenceOrderPlugin(),
     new webpack.optimize.DedupePlugin()
   ]

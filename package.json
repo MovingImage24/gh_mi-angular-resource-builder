@@ -54,8 +54,8 @@
   "scripts": {
     "build": "npm run build:js && npm run build:js-min",
     "prebuild:js": "jscs ./src",
-    "build:js": "webpack --devtool inline-source-map src/index.js dist/mi-angular-resource-builder.js",
-    "build:js-min": "webpack -p --config webpack.min.config.js src/index.js dist/mi-angular-resource-builder.min.js",
+    "build:js": "webpack --config webpack.min.config.js",
+    "build:js-min": "webpack --config webpack.min.config.js",
     "test": "node_modules/karma/bin/karma start karma.config.js"
   }
 }
