@@ -1,3 +1,7 @@
+### This repository is deprecated!
+
+### The relevant repository can be found here [mi-angular-resource-builder](https://github.com/movingimage-evp/mi-angular-resource-builder)
+
 # Resource builder for AngularJS
 
 [![GitHub version](https://badge.fury.io/gh/MovingImage24%2Fmi-angular-resource-builder.svg)](http://badge.fury.io/gh/MovingImage24%2Fmi-angular-resource-builder)
